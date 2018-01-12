@@ -1,0 +1,7 @@
+def nameGame( str ):
+    nameWithoutFirstLetter = str[1:]
+    result = str +", " + str +", " + "bo-b" + nameWithoutFirstLetter +"\n"+ "Banana-fana fo-f"+ nameWithoutFirstLetter +"\n"+ "Fee-fi-mo-m" + nameWithoutFirstLetter + "\n"+ str + "!";
+    print(result)
+    return
+
+nameGame("Nick")
